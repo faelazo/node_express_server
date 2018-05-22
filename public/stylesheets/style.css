@@ -1,16 +1,53 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*
+{
+  margin: 0;
+  padding: 0;
 }
 
-#lbAltura{
-  color: red;
+#espacioSuperior
+{
+  background-color: #E6E6E6;
 }
 
-#lbPeso{
-  color: green;
+#contenedorPagina
+{
+  margin: 0 auto;
+  border: 1px solid #9900CC;
+  height: 85%;
 }
 
-a {
-  color: #00B7FF;
+#encabezado
+{
+  height: 50px;
+  background-color: #FF3300;
+}
+
+#aLaIzquierda
+{
+  width: 20%;
+  height: 500px;
+  float: left;
+  background-color: #0066FF;
+}
+
+#contenidoPrincipal
+{
+  width: 60%;
+  float: left;
+  background-color: #FFFFFF;
+}
+
+#aLaDerecha
+{
+  width: 20%;
+  height: 500px;
+  float: right;
+  background-color: #006600;
+}
+
+#piePagina
+{
+  clear: both;
+  height: 25px;
+  background-color: #CC6699;
 }

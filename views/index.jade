@@ -1,10 +1,16 @@
 extends layout
 
 block content
-	h1 #{title}
-	label#lbPeso Peso: 
-	input#inPeso
-	br
-	br
-	label#lbAltura Altura: 
-	input#inAltura
+	div#espacioSuperior
+		h1 #{title}
+	div#contenedorPagina
+		header#encabezado
+			p Encabezado
+		aside#aLaIzquierda
+			p Izquierda
+		section#contenidoPrincipal
+			p Contenido Principal
+		aside#aLaDerecha
+			p Derecha
+		footer#piePagina
+			p Pie Pagina
